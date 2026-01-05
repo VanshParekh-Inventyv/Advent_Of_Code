@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-const data = fs.readFileSync("../day_1_input.txt", "utf8");
+const data = fs.readFileSync("day_1_input.txt", "utf8");
 const rotations = data.trim().split("\n");
 
 let dial = 50;
